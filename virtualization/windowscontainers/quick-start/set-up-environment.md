@@ -70,7 +70,7 @@ Next, use the PackageManagement PowerShell module to install the latest version 
 Install-Package -Name docker -ProviderName DockerMsftProvider
 ```
 
-When PowerShell asks you whether to trust the package source 'DockerDefault', type `A` to continue the installation. After the installation complete, you must reboot the computer.
+When PowerShell asks you whether to trust the package source 'DockerDefault', type `A` to continue the installation. After the installation completes, you must reboot the computer.
 
 ```powershell
 Restart-Computer -Force
